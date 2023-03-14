@@ -1,0 +1,63 @@
+@font-face {
+    
+    font-family: digital;
+    src: url("fonts/digital.otf");
+}
+
+body {
+    width: 500px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-image: url("/images/fondo.jpg");
+    background-size: cover;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    margin: 20px 2px;
+    border-radius: 5px;
+    color: #1C1C1C;
+    background-color: #B1B1B1;
+    font-family: digital;
+}
+
+.buttons {
+    display: flex;
+    align-items: stretch;
+}
+
+.reset {
+    width: 100px;
+    margin-left: 200px;
+}
+
+h3 {
+    margin-top: 50px;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+}
+
+#home {
+    color: #040404;
+}
+
+#guest {
+    color: #E7E7E7;
+}
+
+span {
+    padding: 10px 30px;
+    border: 2px solid black;
+    font-family: digital;                              
+    color: #B1B1B1;
+    font-size: 70px;
+    margin-left: 15px;
+    align-content: center;
+    background: #694b5f;
+}
